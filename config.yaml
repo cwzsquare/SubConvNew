@@ -115,6 +115,10 @@ CUSTOM_PROXY_GROUP:
 - name: ♻️ 自动选择
   type: url-test
   rule: false
+- name: ♻️ 自动白金
+  type: url-test
+  rule: false
+  regex: 白金
 - name: 🚀 手动切换1
   type: select
   manual: true
